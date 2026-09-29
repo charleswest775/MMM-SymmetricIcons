@@ -126,13 +126,13 @@
 		subtitle: "one point, hopping chaotically, millions of times",
 		equations: [
 			"z<sub>n+1</sub> = (λ + α z<sub>n</sub> z̄<sub>n</sub> + β Re(z<sub>n</sub><sup>n</sup>) + iω) z<sub>n</sub> + γ z̄<sub>n</sub><sup>n−1</sup>",
-			"<span class=\"chaos-note\">each hop is unpredictable, yet the map has the symmetry of a regular n-gon, so the places the point visits (brighter = more often) form a symmetric picture — after Field &amp; Golubitsky, Symmetry in Chaos</span>"
+			"<span class=\"icons-note\">each hop is unpredictable, yet the map has the symmetry of a regular n-gon, so the places the point visits (brighter = more often) form a symmetric picture — after Field &amp; Golubitsky, Symmetry in Chaos</span>"
 		]
 	};
 	Icons.ICONS = ICONS;
 	Icons.hop = hop;
 
-	root.ChaosSimulations = root.ChaosSimulations || {};
-	root.ChaosSimulations.icons = Icons;
+	root.IconsSimulations = root.IconsSimulations || {};
+	root.IconsSimulations.icons = Icons;
 	if (typeof module !== "undefined") module.exports = { Icons };
 })(typeof window !== "undefined" ? window : globalThis);
