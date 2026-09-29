@@ -1,7 +1,7 @@
 {
   "name": "mmm-symmetricicons",
   "version": "1.0.0",
-  "description": "MagicMirror² module: Symmetry in chaos: one point hopping chaotically, millions of times, develops a symmetric picture (Field and Golubitsky).",
+  "description": "MagicMirror² module: symmetry in chaos, one point hopping chaotically millions of times until a symmetric picture develops (after Field and Golubitsky), drawn for a Raspberry Pi without a GPU.",
   "main": "MMM-SymmetricIcons.js",
   "scripts": {
     "test": "node --test"
@@ -11,7 +11,9 @@
     "chaos",
     "chaos theory",
     "symmetric icons",
+    "Symmetry in Chaos",
     "Field and Golubitsky",
+    "attractor",
     "generative art",
     "mathematics"
   ],
